@@ -1,5 +1,5 @@
 # MetaPhlAn2Krona
-Converting MetaPhlan3 outputs and creating a Krona output
+Creating a Krona output from Metaphlan
 
 Requirements: Python3 and [KronaTools](https://github.com/marbl/Krona/wiki/KronaTools)
 
@@ -37,3 +37,7 @@ Options:
                         
 
 For example inputs and outputs, see the included two metaphlan outputs and the krona.out html file
+
+
+![image](https://github.com/user-attachments/assets/b79d8a8f-e6a9-46d7-b114-6211be9bbcf2)
+
