@@ -13,7 +13,8 @@ def main():
 	parser.add_option( '-k', '--krona', dest='krona', default='krona.out', action='store', help='the Krona output file name [krona.out]' )
 	parser.add_option( '-s', '--search-string', dest = 'search', default = "", action = "store", help="Search string for multiple samples. Generates a single Krona output")
 	parser.add_option( '-f', '--folder-path', dest = 'folder', default = "./", action = "store", help="Folder path for input files [./]")
-	parser.add_option( '-t', '--temporary-tag', dest = 'temporary', default = ".m2k.temp", action = "store", help="Folder path for input files [./]")
+	parser.add_option( '-t', '--temporary-tag', dest = 'temporary', default = ".m2k.temp", action = "store", help="Tag for the temporary files, it will be added to the end of the file name.\
+		temp files are removed at the end of the analysis. [.m2k.temp]")
 	
 	( options, spillover ) = parser.parse_args()
 	if options.search == "" and options.folder == "":
