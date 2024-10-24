@@ -1,7 +1,7 @@
 # MetaPhlAn2Krona
 Creating a Krona output from Metaphlan
 
-Requirements: Python3 and [KronaTools](https://github.com/marbl/Krona/wiki/KronaTools)
+Requirements: Python3, [KronaTools](https://github.com/marbl/Krona/wiki/KronaTools) and a browser for opening the krona html file
 
 
 How to run:
