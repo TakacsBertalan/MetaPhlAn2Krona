@@ -1,0 +1,96 @@
+#mpa_v31_CHOCOPhlAn_201901
+#/home/deltagene/mambaforge/envs/metaphlan/bin/metaphlan --input_type fastq /media/deltagene/microbiome_2/CAMI_data/from_onedrive/sample0_S0_L001_R1_001.fastq.gz,/media/deltagene/microbiome_2/CAMI_data/from_onedrive/sample0_S0_L001_R2_001.fastq.gz --bowtie2out ./metaphlan3/CAMI/sample0_bowtie_output --nproc 10 -o ./metaphlan3/CAMI/sample0_taxonomic_report
+#SampleID	Metaphlan_Analysis
+#clade_name	NCBI_tax_id	relative_abundance	additional_species
+k__Bacteria	2	100.0	
+k__Bacteria|p__Proteobacteria	2|1224	55.67418	
+k__Bacteria|p__Firmicutes	2|1239	30.69363	
+k__Bacteria|p__Verrucomicrobia	2|74201	8.72126	
+k__Bacteria|p__Bacteroidetes	2|976	2.64988	
+k__Bacteria|p__Actinobacteria	2|201174	2.26105	
+k__Bacteria|p__Proteobacteria|c__Betaproteobacteria	2|1224|28216	53.80566	
+k__Bacteria|p__Firmicutes|c__Clostridia	2|1239|186801	30.17615	
+k__Bacteria|p__Verrucomicrobia|c__Opitutae	2|74201|414999	8.72126	
+k__Bacteria|p__Bacteroidetes|c__Bacteroidia	2|976|200643	2.64988	
+k__Bacteria|p__Actinobacteria|c__Coriobacteriia	2|201174|84998	1.41098	
+k__Bacteria|p__Proteobacteria|c__Deltaproteobacteria	2|1224|28221	1.34647	
+k__Bacteria|p__Actinobacteria|c__Actinobacteria	2|201174|1760	0.85007	
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria	2|1224|1236	0.52205	
+k__Bacteria|p__Firmicutes|c__Negativicutes	2|1239|909932	0.51748	
+k__Bacteria|p__Proteobacteria|c__Betaproteobacteria|o__Burkholderiales	2|1224|28216|80840	53.80566	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales	2|1239|186801|186802	30.17615	
+k__Bacteria|p__Verrucomicrobia|c__Opitutae|o__Puniceicoccales	2|74201|414999|415001	8.72126	
+k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales	2|976|200643|171549	2.64988	
+k__Bacteria|p__Actinobacteria|c__Coriobacteriia|o__Coriobacteriales	2|201174|84998|84999	1.41098	
+k__Bacteria|p__Proteobacteria|c__Deltaproteobacteria|o__Desulfovibrionales	2|1224|28221|213115	1.34647	
+k__Bacteria|p__Actinobacteria|c__Actinobacteria|o__Bifidobacteriales	2|201174|1760|85004	0.85007	
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pasteurellales	2|1224|1236|135625	0.52205	
+k__Bacteria|p__Firmicutes|c__Negativicutes|o__Veillonellales	2|1239|909932|1843489	0.51748	
+k__Bacteria|p__Proteobacteria|c__Betaproteobacteria|o__Burkholderiales|f__Alcaligenaceae	2|1224|28216|80840|506	53.80566	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Clostridiaceae	2|1239|186801|186802|31979	15.07378	
+k__Bacteria|p__Verrucomicrobia|c__Opitutae|o__Puniceicoccales|f__Puniceicoccaceae	2|74201|414999|415001|415002	8.72126	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Lachnospiraceae	2|1239|186801|186802|186803	8.59026	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Hungateiclostridiaceae	2|1239|186801|186802|2304686	6.22462	
+k__Bacteria|p__Actinobacteria|c__Coriobacteriia|o__Coriobacteriales|f__Coriobacteriaceae	2|201174|84998|84999|84107	1.41098	
+k__Bacteria|p__Proteobacteria|c__Deltaproteobacteria|o__Desulfovibrionales|f__Desulfovibrionaceae	2|1224|28221|213115|194924	1.34647	
+k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Prevotellaceae	2|976|200643|171549|171552	1.22058	
+k__Bacteria|p__Actinobacteria|c__Actinobacteria|o__Bifidobacteriales|f__Bifidobacteriaceae	2|201174|1760|85004|31953	0.85007	
+k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Porphyromonadaceae	2|976|200643|171549|171551	0.58657	
+k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Odoribacteraceae	2|976|200643|171549|1853231	0.56148	
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pasteurellales|f__Pasteurellaceae	2|1224|1236|135625|712	0.52205	
+k__Bacteria|p__Firmicutes|c__Negativicutes|o__Veillonellales|f__Veillonellaceae	2|1239|909932|1843489|31977	0.51748	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Peptococcaceae	2|1239|186801|186802|186807	0.28748	
+k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae	2|976|200643|171549|815	0.28125	
+k__Bacteria|p__Proteobacteria|c__Betaproteobacteria|o__Burkholderiales|f__Alcaligenaceae|g__Bordetella	2|1224|28216|80840|506|517	52.94382	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Clostridiaceae|g__Clostridium	2|1239|186801|186802|31979|1485	15.07378	
+k__Bacteria|p__Verrucomicrobia|c__Opitutae|o__Puniceicoccales|f__Puniceicoccaceae|g__Coraliomargarita	2|74201|414999|415001|415002|442430	8.72126	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Lachnospiraceae|g__Roseburia	2|1239|186801|186802|186803|841	8.32533	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Hungateiclostridiaceae|g__Thermoclostridium	2|1239|186801|186802|2304686|2304691	6.22462	
+k__Bacteria|p__Actinobacteria|c__Coriobacteriia|o__Coriobacteriales|f__Coriobacteriaceae|g__Coriobacteriaceae_unclassified	2|201174|84998|84999|84107|	1.38232	
+k__Bacteria|p__Proteobacteria|c__Deltaproteobacteria|o__Desulfovibrionales|f__Desulfovibrionaceae|g__Desulfovibrio	2|1224|28221|213115|194924|872	1.34647	
+k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Prevotellaceae|g__Prevotella	2|976|200643|171549|171552|838	1.22058	
+k__Bacteria|p__Actinobacteria|c__Actinobacteria|o__Bifidobacteriales|f__Bifidobacteriaceae|g__Bifidobacterium	2|201174|1760|85004|31953|1678	0.85007	
+k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Porphyromonadaceae|g__Petrimonas	2|976|200643|171549|171551|307628	0.58657	
+k__Bacteria|p__Proteobacteria|c__Betaproteobacteria|o__Burkholderiales|f__Alcaligenaceae|g__Achromobacter	2|1224|28216|80840|506|222	0.57973	
+k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Odoribacteraceae|g__Odoribacter	2|976|200643|171549|1853231|283168	0.56148	
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pasteurellales|f__Pasteurellaceae|g__Haemophilus	2|1224|1236|135625|712|724	0.52205	
+k__Bacteria|p__Firmicutes|c__Negativicutes|o__Veillonellales|f__Veillonellaceae|g__Megasphaera	2|1239|909932|1843489|31977|906	0.51748	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Peptococcaceae|g__Desulfitobacterium	2|1239|186801|186802|186807|36853	0.28748	
+k__Bacteria|p__Proteobacteria|c__Betaproteobacteria|o__Burkholderiales|f__Alcaligenaceae|g__Taylorella	2|1224|28216|80840|506|29574	0.28211	
+k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides	2|976|200643|171549|815|816	0.28125	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Lachnospiraceae|g__Butyrivibrio	2|1239|186801|186802|186803|830	0.26493	
+k__Bacteria|p__Actinobacteria|c__Coriobacteriia|o__Coriobacteriales|f__Coriobacteriaceae|g__Coriobacterium	2|201174|84998|84999|84107|33870	0.02867	
+k__Bacteria|p__Proteobacteria|c__Betaproteobacteria|o__Burkholderiales|f__Alcaligenaceae|g__Bordetella|s__Bordetella_pertussis	2|1224|28216|80840|506|517|520	34.09343	k__Bacteria|p__Proteobacteria|c__Betaproteobacteria|o__Burkholderiales|f__Alcaligenaceae|g__Bordetella|s__Bordetella_genomosp_6
+k__Bacteria|p__Proteobacteria|c__Betaproteobacteria|o__Burkholderiales|f__Alcaligenaceae|g__Bordetella|s__Bordetella_petrii	2|1224|28216|80840|506|517|94624	11.92138	
+k__Bacteria|p__Verrucomicrobia|c__Opitutae|o__Puniceicoccales|f__Puniceicoccaceae|g__Coraliomargarita|s__Coraliomargarita_akajimensis	2|74201|414999|415001|415002|442430|395922	8.72126	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Clostridiaceae|g__Clostridium|s__Clostridium_botulinum	2|1239|186801|186802|31979|1485|1491	8.36289	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Lachnospiraceae|g__Roseburia|s__Roseburia_hominis	2|1239|186801|186802|186803|841|301301	8.32533	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Hungateiclostridiaceae|g__Thermoclostridium|s__Thermoclostridium_stercorarium	2|1239|186801|186802|2304686|2304691|1510	6.22462	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Clostridiaceae|g__Clostridium|s__Clostridium_butyricum	2|1239|186801|186802|31979|1485|1492	4.58529	k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Clostridiaceae|g__Clostridium|s__Clostridium_sp_IBUN62F,k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Clostridiaceae|g__Clostridium|s__Clostridium_sp_IBUN125C,k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Clostridiaceae|g__Clostridium|s__Clostridium_sp_3_3,k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Clostridiaceae|g__Clostridium|s__Clostridium_sp_IBUN22A,k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Clostridiaceae|g__Clostridium|s__Clostridium_sp_IBUN13A,k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Clostridiaceae|g__Clostridium|s__Clostridium_sp_HMSC19A10
+k__Bacteria|p__Proteobacteria|c__Betaproteobacteria|o__Burkholderiales|f__Alcaligenaceae|g__Bordetella|s__Bordetella_pseudohinzii	2|1224|28216|80840|506|517|1331258	3.6584	
+k__Bacteria|p__Proteobacteria|c__Betaproteobacteria|o__Burkholderiales|f__Alcaligenaceae|g__Bordetella|s__Bordetella_parapertussis	2|1224|28216|80840|506|517|519	1.85798	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Clostridiaceae|g__Clostridium|s__Clostridium_pasteurianum	2|1239|186801|186802|31979|1485|1501	1.41906	
+k__Bacteria|p__Actinobacteria|c__Coriobacteriia|o__Coriobacteriales|f__Coriobacteriaceae|g__Coriobacteriaceae_unclassified|s__Coriobacteriaceae_bacterium_68_1_3	2|201174|84998|84999|84107||1531429	1.38232	k__Bacteria|p__Actinobacteria|c__Coriobacteriia|o__Coriobacteriales|f__Coriobacteriaceae|g__Coriobacteriaceae_unclassified|s__Coriobacteriaceae_bacterium_68_1_3
+k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Prevotellaceae|g__Prevotella|s__Prevotella_intermedia	2|976|200643|171549|171552|838|28131	1.22058	
+k__Bacteria|p__Proteobacteria|c__Deltaproteobacteria|o__Desulfovibrionales|f__Desulfovibrionaceae|g__Desulfovibrio|s__Desulfovibrio_vulgaris	2|1224|28221|213115|194924|872|881	1.09968	
+k__Bacteria|p__Proteobacteria|c__Betaproteobacteria|o__Burkholderiales|f__Alcaligenaceae|g__Bordetella|s__Bordetella_bronchiseptica	2|1224|28216|80840|506|517|518	0.59087	
+k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Porphyromonadaceae|g__Petrimonas|s__Petrimonas_mucosa	2|976|200643|171549|171551|307628|1642646	0.58657	k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Porphyromonadaceae|g__Porphyromonadaceae_unclassified|s__Porphyromonadaceae_bacterium_KHP3R9
+k__Bacteria|p__Proteobacteria|c__Betaproteobacteria|o__Burkholderiales|f__Alcaligenaceae|g__Achromobacter|s__Achromobacter_xylosoxidans	2|1224|28216|80840|506|222|85698	0.57973	k__Bacteria|p__Proteobacteria|c__Betaproteobacteria|o__Burkholderiales|f__Alcaligenaceae|g__Achromobacter|s__Achromobacter_sp_2789STDY5608617,k__Bacteria|p__Proteobacteria|c__Betaproteobacteria|o__Burkholderiales|f__Alcaligenaceae|g__Achromobacter|s__Achromobacter_sp_KAs_3_5,k__Bacteria|p__Proteobacteria|c__Betaproteobacteria|o__Burkholderiales|f__Alcaligenaceae|g__Achromobacter|s__Achromobacter_sp_2789STDY5608607,k__Bacteria|p__Proteobacteria|c__Betaproteobacteria|o__Burkholderiales|f__Alcaligenaceae|g__Achromobacter|s__Achromobacter_sp_RW408,k__Bacteria|p__Proteobacteria|c__Betaproteobacteria|o__Burkholderiales|f__Alcaligenaceae|g__Achromobacter|s__Achromobacter_sp_2789STDY5608608,k__Bacteria|p__Proteobacteria|c__Betaproteobacteria|o__Burkholderiales|f__Alcaligenaceae|g__Achromobacter|s__Achromobacter_sp_2789STDY5608614,k__Bacteria|p__Proteobacteria|c__Betaproteobacteria|o__Burkholderiales|f__Alcaligenaceae|g__Achromobacter|s__Achromobacter_sp_Root170
+k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Odoribacteraceae|g__Odoribacter|s__Odoribacter_splanchnicus	2|976|200643|171549|1853231|283168|28118	0.56148	k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Odoribacteraceae|g__Odoribacter|s__Odoribacter_splanchnicus_CAG_14
+k__Bacteria|p__Actinobacteria|c__Actinobacteria|o__Bifidobacteriales|f__Bifidobacteriaceae|g__Bifidobacterium|s__Bifidobacterium_bifidum	2|201174|1760|85004|31953|1678|1681	0.53844	k__Bacteria|p__Actinobacteria|c__Actinobacteria|o__Bifidobacteriales|f__Bifidobacteriaceae|g__Bifidobacterium|s__Bifidobacterium_bifidum_CAG_234
+k__Bacteria|p__Proteobacteria|c__Betaproteobacteria|o__Burkholderiales|f__Alcaligenaceae|g__Bordetella|s__Bordetella_holmesii	2|1224|28216|80840|506|517|35814	0.53598	
+k__Bacteria|p__Firmicutes|c__Negativicutes|o__Veillonellales|f__Veillonellaceae|g__Megasphaera|s__Megasphaera_elsdenii	2|1239|909932|1843489|31977|906|907	0.51748	k__Bacteria|p__Firmicutes|c__Negativicutes|o__Veillonellales|f__Veillonellaceae|g__Megasphaera|s__Megasphaera_elsdenii_CAG_570
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Clostridiaceae|g__Clostridium|s__Clostridium_saccharobutylicum	2|1239|186801|186802|31979|1485|169679	0.46698	
+k__Bacteria|p__Actinobacteria|c__Actinobacteria|o__Bifidobacteriales|f__Bifidobacteriaceae|g__Bifidobacterium|s__Bifidobacterium_scardovii	2|201174|1760|85004|31953|1678|158787	0.31163	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Peptococcaceae|g__Desulfitobacterium|s__Desulfitobacterium_dichloroeliminans	2|1239|186801|186802|186807|36853|233055	0.28748	
+k__Bacteria|p__Proteobacteria|c__Betaproteobacteria|o__Burkholderiales|f__Alcaligenaceae|g__Bordetella|s__Bordetella_flabilis	2|1224|28216|80840|506|517|463014	0.28578	
+k__Bacteria|p__Proteobacteria|c__Betaproteobacteria|o__Burkholderiales|f__Alcaligenaceae|g__Taylorella|s__Taylorella_equigenitalis	2|1224|28216|80840|506|29574|29575	0.28211	
+k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides_thetaiotaomicron	2|976|200643|171549|815|816|818	0.28125	k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides_sp_AM23_12,k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides_sp_AR20,k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides_sp_1_1_14,k__Bacteria|p__Bacteroidetes|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides_thetaiotaomicron_CAG_40
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pasteurellales|f__Pasteurellaceae|g__Haemophilus|s__Haemophilus_ducreyi	2|1224|1236|135625|712|724|730	0.27895	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Lachnospiraceae|g__Butyrivibrio|s__Butyrivibrio_hungatei	2|1239|186801|186802|186803|830|185008	0.26493	
+k__Bacteria|p__Proteobacteria|c__Deltaproteobacteria|o__Desulfovibrionales|f__Desulfovibrionaceae|g__Desulfovibrio|s__Desulfovibrio_africanus	2|1224|28221|213115|194924|872|873	0.24679	
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pasteurellales|f__Pasteurellaceae|g__Haemophilus|s__Haemophilus_influenzae	2|1224|1236|135625|712|724|727	0.23998	k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pasteurellales|f__Pasteurellaceae|g__Haemophilus|s__Haemophilus_sp_HMSC071C11,k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pasteurellales|f__Pasteurellaceae|g__Haemophilus|s__Haemophilus_sp_HMSC066A11
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Clostridiaceae|g__Clostridium|s__Clostridium_tetani	2|1239|186801|186802|31979|1485|1513	0.23201	
+k__Bacteria|p__Actinobacteria|c__Coriobacteriia|o__Coriobacteriales|f__Coriobacteriaceae|g__Coriobacterium|s__Coriobacterium_glomerans	2|201174|84998|84999|84107|33870|33871	0.02867	
+k__Bacteria|p__Firmicutes|c__Clostridia|o__Clostridiales|f__Clostridiaceae|g__Clostridium|s__Clostridium_sporogenes	2|1239|186801|186802|31979|1485|1509	0.00756	
+k__Bacteria|p__Proteobacteria|c__Gammaproteobacteria|o__Pasteurellales|f__Pasteurellaceae|g__Haemophilus|s__Haemophilus_aegyptius	2|1224|1236|135625|712|724|197575	0.00311	
