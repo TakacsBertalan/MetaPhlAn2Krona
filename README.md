@@ -14,7 +14,7 @@ Options:
   
     -p PROFILE, --profile=PROFILE
   
-                        Name of the metaPhLan3 taxonomic output file.
+                        Name of the MetaPhLan3 taxonomic output file.
                         Alternatively you can specify a folder path and a
                         search string
                         
